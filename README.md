@@ -75,3 +75,11 @@ instalação do Linux.
 - Clique em adicionar rota.
 - Destino 0.0.0.0/0 e em Alvo selecione Gateway da internet e selecione o gateway criado anteriormente.
 - Clique em Salvar alterações.
+
+## Configurar o apache
+
+- Primeiramente execute o comando ``sudo yum update`` para atualizar o sistema.
+- Executar o comando ``sudo yum install httpd`` para instalar o apache.
+- Execute ``sudo systemctl enable httpd`` para habilitar o apache.
+- Execute ``sudo systemctl start httpd`` para iniciar o apache.
+- Execute ``sudo systemctl status httpd`` para verificar o status do apache.
